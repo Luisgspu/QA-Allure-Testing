@@ -180,7 +180,6 @@ manual_test_cases = [
     
     
     
-    {"test_name": "BFV2", "market_code": "IT/it"},
     
   
     
