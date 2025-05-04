@@ -1,0 +1,32 @@
+ERROR    root:ConfigStarted.py:40 ❌ Error in configurator: Message: element click intercepted: Element <ul _ngcontent-ng-c444498427="" class="cc-navigation__navigation-list">...</ul> is not clickable at point (175, 325). Other element would receive the click: <cmm-cookie-banner settings-id="J36YuhvU8" variant="A" data-language="sv" data-market="SE" class="hydrated" data-workbench-version="7.67.0"></cmm-cookie-banner>
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x561ae8c2775a <unknown>
+#1 0x561ae86da4b0 <unknown>
+#2 0x561ae87327dc <unknown>
+#3 0x561ae8730645 <unknown>
+#4 0x561ae872dce2 <unknown>
+#5 0x561ae872d3e0 <unknown>
+#6 0x561ae871f9ed <unknown>
+#7 0x561ae8751592 <unknown>
+#8 0x561ae871f36a <unknown>
+#9 0x561ae875175e <unknown>
+#10 0x561ae87775e0 <unknown>
+#11 0x561ae8751363 <unknown>
+#12 0x561ae871dd63 <unknown>
+#13 0x561ae871e9c1 <unknown>
+#14 0x561ae8beca6b <unknown>
+#15 0x561ae8bf0951 <unknown>
+#16 0x561ae8bd4b62 <unknown>
+#17 0x561ae8bf14c4 <unknown>
+#18 0x561ae8bb913f <unknown>
+#19 0x561ae8c156f8 <unknown>
+#20 0x561ae8c158d6 <unknown>
+#21 0x561ae8c265a6 <unknown>
+#22 0x7f96a309caa4 <unknown>
+#23 0x7f96a3129c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:127 ❌ Image not found in the specified selector. Error: Message: 
+
+ERROR    root:VerifyPersonalizationAndCapture.py:18 ❌ Error attaching screenshot to Allure: [Errno 2] No such file or directory: '/home/runner/work/QA-Allure-Testing/QA-Allure-Testing/Tests/Last Configuration Started_attempt_2.png'
+ERROR    root:QAAppAllure.py:172 ❌ Test 'Last Configuration Started' failed.

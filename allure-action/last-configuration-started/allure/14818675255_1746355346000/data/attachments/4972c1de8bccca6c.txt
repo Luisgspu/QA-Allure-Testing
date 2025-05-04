@@ -1,0 +1,30 @@
+ERROR    root:ConfigStarted.py:40 ❌ Error in configurator: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#cc-app-container-main > div.cc-app-container__main-frame.cc-grid-container > div.cc-app-container__navigation.ng-star-inserted > cc-navigation > nav > div > ul"}
+  (Session info: chrome=135.0.7049.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55d64c69b75a <unknown>
+#1 0x55d64c14e4b0 <unknown>
+#2 0x55d64c19f9b3 <unknown>
+#3 0x55d64c19fbd1 <unknown>
+#4 0x55d64c1934b6 <unknown>
+#5 0x55d64c1c55bd <unknown>
+#6 0x55d64c19336a <unknown>
+#7 0x55d64c1c575e <unknown>
+#8 0x55d64c1eb5e0 <unknown>
+#9 0x55d64c1c5363 <unknown>
+#10 0x55d64c191d63 <unknown>
+#11 0x55d64c1929c1 <unknown>
+#12 0x55d64c660a6b <unknown>
+#13 0x55d64c664951 <unknown>
+#14 0x55d64c648b62 <unknown>
+#15 0x55d64c6654c4 <unknown>
+#16 0x55d64c62d13f <unknown>
+#17 0x55d64c6896f8 <unknown>
+#18 0x55d64c6898d6 <unknown>
+#19 0x55d64c69a5a6 <unknown>
+#20 0x7f330229caa4 <unknown>
+#21 0x7f3302329c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:127 ❌ Image not found in the specified selector. Error: Message: 
+
+ERROR    root:VerifyPersonalizationAndCapture.py:18 ❌ Error attaching screenshot to Allure: [Errno 2] No such file or directory: '/home/runner/work/QA-Allure-Testing/QA-Allure-Testing/Tests/Last Configuration Started_attempt_2.png'
+ERROR    root:QAAppAllure.py:172 ❌ Test 'Last Configuration Started' failed.
