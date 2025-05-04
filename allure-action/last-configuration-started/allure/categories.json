@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Control Group Fail",
+    "messageRegex": ".*Control Group Fail.*",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Wrong Personalization Image",
+    "messageRegex": ".*Wrong Personalization Image.*",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Cookie Acceptance Failure",
+    "messageRegex": ".*Failed to accept cookies.*",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "General Test Failure",
+    "messageRegex": ".*Test '.*' failed.*",
+    "matchedStatuses": ["failed"]
+  }
+]
