@@ -1,0 +1,81 @@
+ERROR    root:ConfigCompleted.py:57 ❌ Error while performing configurator actions: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#cc-app-container-main > div.cc-app-container__main-frame.cc-grid-container > div.cc-app-container__navigation.ng-star-inserted > cc-navigation > nav > div > ul"}
+  (Session info: chrome=135.0.7049.114); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x558ed82b175a <unknown>
+#1 0x558ed7d644b0 <unknown>
+#2 0x558ed7db59b3 <unknown>
+#3 0x558ed7db5bd1 <unknown>
+#4 0x558ed7da94b6 <unknown>
+#5 0x558ed7ddb5bd <unknown>
+#6 0x558ed7da936a <unknown>
+#7 0x558ed7ddb75e <unknown>
+#8 0x558ed7e015e0 <unknown>
+#9 0x558ed7ddb363 <unknown>
+#10 0x558ed7da7d63 <unknown>
+#11 0x558ed7da89c1 <unknown>
+#12 0x558ed8276a6b <unknown>
+#13 0x558ed827a951 <unknown>
+#14 0x558ed825eb62 <unknown>
+#15 0x558ed827b4c4 <unknown>
+#16 0x558ed824313f <unknown>
+#17 0x558ed829f6f8 <unknown>
+#18 0x558ed829f8d6 <unknown>
+#19 0x558ed82b05a6 <unknown>
+#20 0x7ff77149caa4 <unknown>
+#21 0x7ff771529c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_luxembourg_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiZnJfTFUiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56Lmx1L2ZyL3Bhc3NlbmdlcmNhcnMvbWVyY2VkZXMtYmVuei1jYXJzL2Nhci1jb25maWd1cmF0b3IuaHRtbC9tb3Rvcml6YXRpb24vQ0NjaS9MVS9mci9FUUUtS0xBU1NFL0xJTU9VU0lORV9MQU5HIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI1NCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTkzMjg0ODE1My4xNzQ2MzE1NDY5In0sImFub25JZCI6IjUyMDkwZjYyY2U2ZmVjZjkifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiIyNTI2MDUwMjgwOTMxMDk4In0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x558ed82b175a <unknown>
+#1 0x558ed7d644b0 <unknown>
+#2 0x558ed7d4ad86 <unknown>
+#3 0x558ed7d4969a <unknown>
+#4 0x558ed7d49dff <unknown>
+#5 0x558ed7d49d54 <unknown>
+#6 0x558ed7d6869f <unknown>
+#7 0x558ed7e0d92a <unknown>
+#8 0x558ed7ddb592 <unknown>
+#9 0x558ed7e015e0 <unknown>
+#10 0x558ed7ddb363 <unknown>
+#11 0x558ed7da7d63 <unknown>
+#12 0x558ed7da89c1 <unknown>
+#13 0x558ed8276a6b <unknown>
+#14 0x558ed827a951 <unknown>
+#15 0x558ed825eb62 <unknown>
+#16 0x558ed827b4c4 <unknown>
+#17 0x558ed824313f <unknown>
+#18 0x558ed829f6f8 <unknown>
+#19 0x558ed829f8d6 <unknown>
+#20 0x558ed82b05a6 <unknown>
+#21 0x7ff77149caa4 <unknown>
+#22 0x7ff771529c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_luxembourg_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gY2FyLWNvbmZpZ3VyYXRvciIsInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMTkzMjg0ODE1My4xNzQ2MzE1NDY5In0sImFub25JZCI6IjUyMDkwZjYyY2U2ZmVjZjkifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnoubHUvZnIvcGFzc2VuZ2VyY2Fycy9tZXJjZWRlcy1iZW56LWNhcnMvY2FyLWNvbmZpZ3VyYXRvci5odG1sL21vdG9yaXphdGlvbi9DQ2NpL0xVL2ZyL0VRRS1LTEFTU0UvTElNT1VTSU5FX0xBTkciLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjU0IiwiY29udGVudFpvbmVzIjpbXX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sInBlcmZvcm1hbmNlIjp7InNka1BhcnNlVGltZSI6Mn0sIl90b29sc0V2ZW50TGlua0lkIjoiNDcwMTQ5MzkzMDQ0MzE2IiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x558ed82b175a <unknown>
+#1 0x558ed7d644b0 <unknown>
+#2 0x558ed7d4ad86 <unknown>
+#3 0x558ed7d4969a <unknown>
+#4 0x558ed7d49dff <unknown>
+#5 0x558ed7d49d54 <unknown>
+#6 0x558ed7d6869f <unknown>
+#7 0x558ed7e0d92a <unknown>
+#8 0x558ed7ddb592 <unknown>
+#9 0x558ed7e015e0 <unknown>
+#10 0x558ed7ddb363 <unknown>
+#11 0x558ed7da7d63 <unknown>
+#12 0x558ed7da89c1 <unknown>
+#13 0x558ed8276a6b <unknown>
+#14 0x558ed827a951 <unknown>
+#15 0x558ed825eb62 <unknown>
+#16 0x558ed827b4c4 <unknown>
+#17 0x558ed824313f <unknown>
+#18 0x558ed829f6f8 <unknown>
+#19 0x558ed829f8d6 <unknown>
+#20 0x558ed82b05a6 <unknown>
+#21 0x7ff77149caa4 <unknown>
+#22 0x7ff771529c3c <unknown>
+
+ERROR    root:QAAppAllure.py:172 ❌ Test 'Last Configuration Completed' failed.
