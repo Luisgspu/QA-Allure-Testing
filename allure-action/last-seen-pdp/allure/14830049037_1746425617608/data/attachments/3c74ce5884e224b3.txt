@@ -1,0 +1,59 @@
+ERROR    root:test_LastSeenPDP.py:84 ❌ Error during Last Seen PDP test: HTTPConnectionPool(host='localhost', port=39675): Read timed out. (read timeout=120)
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_switzerland_prod?event=eyJhY3Rpb24iOiJIb21lIFBhZ2UiLCJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJob21lIiwibG9jYWxlIjoiZGVfQ0giLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56LmNoL2RlIiwidXJsUmVmZXJyZXIiOiIiLCJjaGFubmVsIjoiV2ViIiwiYmVhY29uVmVyc2lvbiI6MTYsImNvbmZpZ1ZlcnNpb24iOiI2MCJ9LCJmbGFncyI6eyJwYWdlVmlldyI6dHJ1ZX0sInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiOTAxNzAxNjQyLjE3NDY0MjQ5MjQifSwiYW5vbklkIjoiZGEwMmFmNDg5ZDE3NTA0OSJ9LCJwZXJmb3JtYW5jZSI6e30sImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX0sImNhdGFsb2ciOnt9LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjI3NDYzMTk2MzAyMzEzODY0In0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x559062a4875a <unknown>
+#1 0x5590624fb4b0 <unknown>
+#2 0x5590624e1d86 <unknown>
+#3 0x5590624e069a <unknown>
+#4 0x5590624e0dff <unknown>
+#5 0x5590624e0d54 <unknown>
+#6 0x5590624ff69f <unknown>
+#7 0x5590625a492a <unknown>
+#8 0x559062572592 <unknown>
+#9 0x5590625985e0 <unknown>
+#10 0x559062572363 <unknown>
+#11 0x55906253ed63 <unknown>
+#12 0x55906253f9c1 <unknown>
+#13 0x559062a0da6b <unknown>
+#14 0x559062a11951 <unknown>
+#15 0x5590629f5b62 <unknown>
+#16 0x559062a124c4 <unknown>
+#17 0x5590629da13f <unknown>
+#18 0x559062a366f8 <unknown>
+#19 0x559062a368d6 <unknown>
+#20 0x559062a475a6 <unknown>
+#21 0x7fbc70e9caa4 <unknown>
+#22 0x7fbc70f29c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_switzerland_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gcGFzc2VuZ2VyY2FycyIsInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiOTAxNzAxNjQyLjE3NDY0MjQ5MjQifSwiYW5vbklkIjoiZGEwMmFmNDg5ZDE3NTA0OSJ9LCJzb3VyY2UiOnsidXJsIjoiaHR0cHM6Ly93d3cubWVyY2VkZXMtYmVuei5jaC9kZSIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjAiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwicGVyZm9ybWFuY2UiOnsiZG9tTG9hZFRpbWUiOjQxODQsInBhZ2VMb2FkVGltZSI6NTIxOSwic2RrUGFyc2VUaW1lIjo3LCJzZGtMb2FkVGltZSI6MTUyLCJzZGtEbnNUaW1lIjozMX0sIl90b29sc0V2ZW50TGlua0lkIjoiMjYyMDY2NjIyNTIxNDk4NiIsImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX19: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=135.0.7049.114)
+Stacktrace:
+#0 0x559062a4875a <unknown>
+#1 0x5590624fb4b0 <unknown>
+#2 0x5590624e1d86 <unknown>
+#3 0x5590624e069a <unknown>
+#4 0x5590624e0dff <unknown>
+#5 0x5590624e0d54 <unknown>
+#6 0x5590624ff69f <unknown>
+#7 0x5590625a492a <unknown>
+#8 0x559062572592 <unknown>
+#9 0x5590625985e0 <unknown>
+#10 0x559062572363 <unknown>
+#11 0x55906253ed63 <unknown>
+#12 0x55906253f9c1 <unknown>
+#13 0x559062a0da6b <unknown>
+#14 0x559062a11951 <unknown>
+#15 0x5590629f5b62 <unknown>
+#16 0x559062a124c4 <unknown>
+#17 0x5590629da13f <unknown>
+#18 0x559062a366f8 <unknown>
+#19 0x559062a368d6 <unknown>
+#20 0x559062a475a6 <unknown>
+#21 0x7fbc70e9caa4 <unknown>
+#22 0x7fbc70f29c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:127 ❌ Image not found in the specified selector. Error: Message: 
+
+ERROR    root:VerifyPersonalizationAndCapture.py:18 ❌ Error attaching screenshot to Allure: [Errno 2] No such file or directory: '/home/runner/work/QA-Allure-Testing/QA-Allure-Testing/Tests/Last Seen PDP_attempt_2.png'
+ERROR    root:QAAppAllure.py:172 ❌ Test 'Last Seen PDP' failed.
