@@ -219,8 +219,10 @@ manual_test_cases = [
 
     
  
-    {"test_name": "Last Seen SRP", "market_code": "LU/de", "model_code": "C236"},
-    {"test_name": "Last Seen PDP", "market_code": "LU/de", "model_code": "C236"},
+    {"test_name": "Last Configuration Started", "market_code": "GB/en", "model_code": "C174"},
+    {"test_name": "Last Configuration Completed", "market_code": "GB/en", "model_code": "C174"},
+    {"test_name": "BFV1", "market_code": "GB/en", "model_code": "C174"},
+
 
     
     
