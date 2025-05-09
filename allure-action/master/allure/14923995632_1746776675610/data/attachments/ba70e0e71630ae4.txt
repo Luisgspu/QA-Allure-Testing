@@ -1,0 +1,106 @@
+ERROR    root:ConfigStarted.py:59 ❌ Error while performing configurator actions: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#cc-app-container-main > div.cc-app-container__main-frame.cc-grid-container > div.cc-app-container__navigation.ng-star-inserted > cc-navigation > nav > div > ul"}
+  (Session info: chrome=136.0.7103.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555dbfc717fa <unknown>
+#1 0x555dbf715e90 <unknown>
+#2 0x555dbf767870 <unknown>
+#3 0x555dbf767a91 <unknown>
+#4 0x555dbf75b446 <unknown>
+#5 0x555dbf78d26d <unknown>
+#6 0x555dbf75b2fa <unknown>
+#7 0x555dbf78d40e <unknown>
+#8 0x555dbf7b3135 <unknown>
+#9 0x555dbf78d013 <unknown>
+#10 0x555dbf759b3b <unknown>
+#11 0x555dbf75a7a1 <unknown>
+#12 0x555dbfc36b9b <unknown>
+#13 0x555dbfc3aa8a <unknown>
+#14 0x555dbfc1e912 <unknown>
+#15 0x555dbfc3b604 <unknown>
+#16 0x555dbfc0374f <unknown>
+#17 0x555dbfc5f678 <unknown>
+#18 0x555dbfc5f856 <unknown>
+#19 0x555dbfc70666 <unknown>
+#20 0x7f2bbd89caa4 <unknown>
+#21 0x7f2bbd929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_united_kingdom_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiZW5fR0IiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56LmNvLnVrL3Bhc3NlbmdlcmNhcnMvbWVyY2VkZXMtYmVuei1jYXJzL2Nhci1jb25maWd1cmF0b3IuaHRtbC9tb3Rvcml6YXRpb24vQ0NjaS9HQi9lbi9DTEEvTElNT1VTSU5FP2ludGVybmFsX3Rlc3Q9dHJ1ZSIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNTcifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjI3MDgzODQwNC4xNzQ2Nzc2NDY4In0sImFub25JZCI6IjRlZmViZjUzYmQwNzU0NjAifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI4Nzc1MDk1OTA2MjgwMDk4In0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.59)
+Stacktrace:
+#0 0x555dbfc717fa <unknown>
+#1 0x555dbf715e90 <unknown>
+#2 0x555dbf6fd156 <unknown>
+#3 0x555dbf6fba6a <unknown>
+#4 0x555dbf6fc1cf <unknown>
+#5 0x555dbf6fc124 <unknown>
+#6 0x555dbf71a11f <unknown>
+#7 0x555dbf7bf3ca <unknown>
+#8 0x555dbf78d242 <unknown>
+#9 0x555dbf7b3135 <unknown>
+#10 0x555dbf78d013 <unknown>
+#11 0x555dbf759b3b <unknown>
+#12 0x555dbf75a7a1 <unknown>
+#13 0x555dbfc36b9b <unknown>
+#14 0x555dbfc3aa8a <unknown>
+#15 0x555dbfc1e912 <unknown>
+#16 0x555dbfc3b604 <unknown>
+#17 0x555dbfc0374f <unknown>
+#18 0x555dbfc5f678 <unknown>
+#19 0x555dbfc5f856 <unknown>
+#20 0x555dbfc70666 <unknown>
+#21 0x7f2bbd89caa4 <unknown>
+#22 0x7f2bbd929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_united_kingdom_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gY2FyLWNvbmZpZ3VyYXRvciIsInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjcwODM4NDA0LjE3NDY3NzY0NjgifSwiYW5vbklkIjoiNGVmZWJmNTNiZDA3NTQ2MCJ9LCJzb3VyY2UiOnsidXJsIjoiaHR0cHM6Ly93d3cubWVyY2VkZXMtYmVuei5jby51ay9wYXNzZW5nZXJjYXJzL21lcmNlZGVzLWJlbnotY2Fycy9jYXItY29uZmlndXJhdG9yLmh0bWwvbW90b3JpemF0aW9uL0NDY2kvR0IvZW4vQ0xBL0xJTU9VU0lORT9pbnRlcm5hbF90ZXN0PXRydWUiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjU3IiwiY29udGVudFpvbmVzIjpbXX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sInBlcmZvcm1hbmNlIjp7InNka1BhcnNlVGltZSI6Mn0sIl90b29sc0V2ZW50TGlua0lkIjoiOTIxOTQ5MTkzOTM0MzE5IiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.59)
+Stacktrace:
+#0 0x555dbfc717fa <unknown>
+#1 0x555dbf715e90 <unknown>
+#2 0x555dbf6fd156 <unknown>
+#3 0x555dbf6fba6a <unknown>
+#4 0x555dbf6fc1cf <unknown>
+#5 0x555dbf6fc124 <unknown>
+#6 0x555dbf71a11f <unknown>
+#7 0x555dbf7bf3ca <unknown>
+#8 0x555dbf78d242 <unknown>
+#9 0x555dbf7b3135 <unknown>
+#10 0x555dbf78d013 <unknown>
+#11 0x555dbf759b3b <unknown>
+#12 0x555dbf75a7a1 <unknown>
+#13 0x555dbfc36b9b <unknown>
+#14 0x555dbfc3aa8a <unknown>
+#15 0x555dbfc1e912 <unknown>
+#16 0x555dbfc3b604 <unknown>
+#17 0x555dbfc0374f <unknown>
+#18 0x555dbfc5f678 <unknown>
+#19 0x555dbfc5f856 <unknown>
+#20 0x555dbfc70666 <unknown>
+#21 0x7f2bbd89caa4 <unknown>
+#22 0x7f2bbd929c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:107 ❌ Failed to scroll to element: body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(14) > div. Error: Message: no such element: Unable to locate element: {"method":"css selector","selector":"body > div.root.responsivegrid.owc-content-container > div > div.responsivegrid.ng-content-root.aem-GridColumn.aem-GridColumn--default--12 > div > div:nth-child(14) > div"}
+  (Session info: chrome=136.0.7103.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x555dbfc717fa <unknown>
+#1 0x555dbf715e90 <unknown>
+#2 0x555dbf767870 <unknown>
+#3 0x555dbf767a61 <unknown>
+#4 0x555dbf7b5cb4 <unknown>
+#5 0x555dbf78d26d <unknown>
+#6 0x555dbf7b3135 <unknown>
+#7 0x555dbf78d013 <unknown>
+#8 0x555dbf759b3b <unknown>
+#9 0x555dbf75a7a1 <unknown>
+#10 0x555dbfc36b9b <unknown>
+#11 0x555dbfc3aa8a <unknown>
+#12 0x555dbfc1e912 <unknown>
+#13 0x555dbfc3b604 <unknown>
+#14 0x555dbfc0374f <unknown>
+#15 0x555dbfc5f678 <unknown>
+#16 0x555dbfc5f856 <unknown>
+#17 0x555dbfc70666 <unknown>
+#18 0x7f2bbd89caa4 <unknown>
+#19 0x7f2bbd929c3c <unknown>
+
+ERROR    root:QAAppAllure.py:204 ❌ Categorized as General Test Failure.
+ERROR    root:QAAppAllure.py:207 ❌ Test 'Last Configuration Started' failed.
