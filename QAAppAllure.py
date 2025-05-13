@@ -214,27 +214,21 @@ def run_test(driver, test_name, market_code, model_code, model_name, body_type, 
 manual_test_cases = [
     
     
-    {"test_name": "BFV2", "market_code": "AT/de"},
-    {"test_name": "BFV2", "market_code": "BE/nl"},
-    {"test_name": "BFV2", "market_code": "BE/fr"},
-    {"test_name": "BFV2", "market_code": "CH/de"},
-    {"test_name": "BFV2", "market_code": "CH/fr"},
-    {"test_name": "BFV2", "market_code": "CH/it"},
-    {"test_name": "BFV2", "market_code": "CZ/cs"},
-    {"test_name": "BFV2", "market_code": "DK/da"},
-    {"test_name": "BFV2", "market_code": "FR/fr"},
-    {"test_name": "BFV2", "market_code": "HU/hu"},
-    {"test_name": "BFV2", "market_code": "IT/it"},
-    {"test_name": "BFV2", "market_code": "LU/de"},
-    {"test_name": "BFV2", "market_code": "LU/fr"},
-    {"test_name": "BFV2", "market_code": "NL/nl"},
-    {"test_name": "BFV2", "market_code": "PL/pl"},
-    {"test_name": "BFV2", "market_code": "PT/pt"},
-    {"test_name": "BFV2", "market_code": "RO/ro"},
-    {"test_name": "BFV2", "market_code": "SE/sv"},
-    {"test_name": "BFV2", "market_code": "SK/sk"}
     
+
+
+    
+    
+    {"test_name": "BFV2", "market_code": "DE/de", "model_code": "C174"},
   
+
+    
+
+
+    
+   
+  
+
     
     
 ]
@@ -251,6 +245,13 @@ for manual_case in manual_test_cases:
     # Fetch URLs for the specific model code or all models if model_code is not provided
     fetched_cases = vehicle_api.fetch_models_for_market(market_code, test_name, model_code=model_code)
     if fetched_cases:
+        for case in fetched_cases:
+            # Append the test-specific query parameter to all URLs
+            if "urls" in case:
+                for key, url in case["urls"].items():
+                    if url:  # Ensure the URL is not None
+                        case["urls"][key] = f"{url}?internal_test=true"
+
         if model_code:
             # Update the manual case with the fetched URLs for the specific model
             manual_case["urls"] = fetched_cases[0].get("urls", {})
