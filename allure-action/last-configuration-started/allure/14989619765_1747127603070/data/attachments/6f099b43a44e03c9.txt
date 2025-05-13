@@ -1,0 +1,79 @@
+ERROR    root:ConfigStarted.py:59 ❌ Error while performing configurator actions: Message: no such element: Unable to locate element: {"method":"css selector","selector":"#cc-app-container-main > div.cc-app-container__main-frame.cc-grid-container > div.cc-app-container__navigation.ng-star-inserted > cc-navigation > nav > div > ul"}
+  (Session info: chrome=136.0.7103.59); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55680220a7fa <unknown>
+#1 0x556801caee90 <unknown>
+#2 0x556801d00870 <unknown>
+#3 0x556801d00a91 <unknown>
+#4 0x556801cf4446 <unknown>
+#5 0x556801d2626d <unknown>
+#6 0x556801cf42fa <unknown>
+#7 0x556801d2640e <unknown>
+#8 0x556801d4c135 <unknown>
+#9 0x556801d26013 <unknown>
+#10 0x556801cf2b3b <unknown>
+#11 0x556801cf37a1 <unknown>
+#12 0x5568021cfb9b <unknown>
+#13 0x5568021d3a8a <unknown>
+#14 0x5568021b7912 <unknown>
+#15 0x5568021d4604 <unknown>
+#16 0x55680219c74f <unknown>
+#17 0x5568021f8678 <unknown>
+#18 0x5568021f8856 <unknown>
+#19 0x556802209666 <unknown>
+#20 0x7fea1b69caa4 <unknown>
+#21 0x7fea1b729c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_slovakia_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoic2tfU0siLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56LnNrL3Bhc3NlbmdlcmNhcnMvbWVyY2VkZXMtYmVuei1jYXJzL2Nhci1jb25maWd1cmF0b3IuaHRtbC9tb3Rvcml6YXRpb24vQ0NjaS9TSy9zay9FUUUtS0xBU1NFL0xJTU9VU0lORV9MQU5HP2ludGVybmFsX3Rlc3Q9dHJ1ZSIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNjIifSwiZmxhZ3MiOnsicGFnZVZpZXciOnRydWV9LCJ1c2VyIjp7ImF0dHJpYnV0ZXMiOnsiZ2FDbGllbnRJRCI6IjY2NzQ3MjQ2My4xNzQ3MTI3MTQ1In0sImFub25JZCI6ImI1YmNlZDMzZjIzMzY4YjAifSwicGVyZm9ybWFuY2UiOnt9LCJkZWJ1ZyI6eyJleHBsYW5hdGlvbnMiOnRydWV9LCJjYXRhbG9nIjp7fSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI4NDA5NTM3NTE0MTY5NzgzIn0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.59)
+Stacktrace:
+#0 0x55680220a7fa <unknown>
+#1 0x556801caee90 <unknown>
+#2 0x556801c96156 <unknown>
+#3 0x556801c94a6a <unknown>
+#4 0x556801c951cf <unknown>
+#5 0x556801c95124 <unknown>
+#6 0x556801cb311f <unknown>
+#7 0x556801d583ca <unknown>
+#8 0x556801d26242 <unknown>
+#9 0x556801d4c135 <unknown>
+#10 0x556801d26013 <unknown>
+#11 0x556801cf2b3b <unknown>
+#12 0x556801cf37a1 <unknown>
+#13 0x5568021cfb9b <unknown>
+#14 0x5568021d3a8a <unknown>
+#15 0x5568021b7912 <unknown>
+#16 0x5568021d4604 <unknown>
+#17 0x55680219c74f <unknown>
+#18 0x5568021f8678 <unknown>
+#19 0x5568021f8856 <unknown>
+#20 0x556802209666 <unknown>
+#21 0x7fea1b69caa4 <unknown>
+#22 0x7fea1b729c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_slovakia_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gY2FyLWNvbmZpZ3VyYXRvciIsInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiNjY3NDcyNDYzLjE3NDcxMjcxNDUifSwiYW5vbklkIjoiYjViY2VkMzNmMjMzNjhiMCJ9LCJzb3VyY2UiOnsidXJsIjoiaHR0cHM6Ly93d3cubWVyY2VkZXMtYmVuei5zay9wYXNzZW5nZXJjYXJzL21lcmNlZGVzLWJlbnotY2Fycy9jYXItY29uZmlndXJhdG9yLmh0bWwvbW90b3JpemF0aW9uL0NDY2kvU0svc2svRVFFLUtMQVNTRS9MSU1PVVNJTkVfTEFORz9pbnRlcm5hbF90ZXN0PXRydWUiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjYyIiwiY29udGVudFpvbmVzIjpbXX0sImNvbnNlbnRzIjpbXSwiYWNjb3VudCI6e30sInBlcmZvcm1hbmNlIjp7InNka1BhcnNlVGltZSI6MX0sIl90b29sc0V2ZW50TGlua0lkIjoiODYwNTc1MzU0NDIwMzU3IiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.59)
+Stacktrace:
+#0 0x55680220a7fa <unknown>
+#1 0x556801caee90 <unknown>
+#2 0x556801c96156 <unknown>
+#3 0x556801c94a6a <unknown>
+#4 0x556801c951cf <unknown>
+#5 0x556801c95124 <unknown>
+#6 0x556801cb311f <unknown>
+#7 0x556801d583ca <unknown>
+#8 0x556801d26242 <unknown>
+#9 0x556801d4c135 <unknown>
+#10 0x556801d26013 <unknown>
+#11 0x556801cf2b3b <unknown>
+#12 0x556801cf37a1 <unknown>
+#13 0x5568021cfb9b <unknown>
+#14 0x5568021d3a8a <unknown>
+#15 0x5568021b7912 <unknown>
+#16 0x5568021d4604 <unknown>
+#17 0x55680219c74f <unknown>
+#18 0x5568021f8678 <unknown>
+#19 0x5568021f8856 <unknown>
+#20 0x556802209666 <unknown>
+#21 0x7fea1b69caa4 <unknown>
+#22 0x7fea1b729c3c <unknown>

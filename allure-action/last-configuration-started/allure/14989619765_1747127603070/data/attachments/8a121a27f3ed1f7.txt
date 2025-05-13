@@ -1,0 +1,57 @@
+ERROR    root:ConfigStarted.py:59 ❌ Error while performing configurator actions: 'NoneType' object has no attribute 'find_element'
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_united_kingdom_prod?event=eyJpdGVtQWN0aW9uIjpudWxsLCJzb3VyY2UiOnsicGFnZVR5cGUiOiJkZWZhdWx0IiwibG9jYWxlIjoiZW5fR0IiLCJjb250ZW50Wm9uZXMiOltdLCJ1cmwiOiJodHRwczovL3d3dy5tZXJjZWRlcy1iZW56LmNvLnVrL3Bhc3NlbmdlcmNhcnMvbWVyY2VkZXMtYmVuei1jYXJzL2Nhci1jb25maWd1cmF0b3IuaHRtbC9tb3Rvcml6YXRpb24vQ0NjaS9HQi9lbi9DTEUtS0xBU1NFL0NBQlJJT0xFVD9pbnRlcm5hbF90ZXN0PXRydWUiLCJ1cmxSZWZlcnJlciI6IiIsImNoYW5uZWwiOiJXZWIiLCJiZWFjb25WZXJzaW9uIjoxNiwiY29uZmlnVmVyc2lvbiI6IjU4In0sImZsYWdzIjp7InBhZ2VWaWV3Ijp0cnVlfSwidXNlciI6eyJhdHRyaWJ1dGVzIjp7ImdhQ2xpZW50SUQiOiIyMDEzMjMzNzAxLjE3NDcxMjE5MDQifSwiYW5vbklkIjoiMDU2ZTJiYWFlMTI1ZTQ2YyJ9LCJwZXJmb3JtYW5jZSI6e30sImRlYnVnIjp7ImV4cGxhbmF0aW9ucyI6dHJ1ZX0sImNhdGFsb2ciOnt9LCJjb25zZW50cyI6W10sImFjY291bnQiOnt9LCJfdG9vbHNFdmVudExpbmtJZCI6IjQ4NDEzMTg2MzI1OTY5NzM3In0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.59)
+Stacktrace:
+#0 0x55f738d387fa <unknown>
+#1 0x55f7387dce90 <unknown>
+#2 0x55f7387c4156 <unknown>
+#3 0x55f7387c2a6a <unknown>
+#4 0x55f7387c31cf <unknown>
+#5 0x55f7387c3124 <unknown>
+#6 0x55f7387e111f <unknown>
+#7 0x55f7388863ca <unknown>
+#8 0x55f738854242 <unknown>
+#9 0x55f73887a135 <unknown>
+#10 0x55f738854013 <unknown>
+#11 0x55f738820b3b <unknown>
+#12 0x55f7388217a1 <unknown>
+#13 0x55f738cfdb9b <unknown>
+#14 0x55f738d01a8a <unknown>
+#15 0x55f738ce5912 <unknown>
+#16 0x55f738d02604 <unknown>
+#17 0x55f738cca74f <unknown>
+#18 0x55f738d26678 <unknown>
+#19 0x55f738d26856 <unknown>
+#20 0x55f738d37666 <unknown>
+#21 0x7fc77289caa4 <unknown>
+#22 0x7fc772929c3c <unknown>
+
+ERROR    root:XHRResponseCapturer.py:123 Error capturing response for https://daimleragemea.germany-2.evergage.com/api2/event/mb_united_kingdom_prod?event=eyJhY3Rpb24iOiJWaXNpdGVkIC0gY2FyLWNvbmZpZ3VyYXRvciIsInVzZXIiOnsiYXR0cmlidXRlcyI6eyJnYUNsaWVudElEIjoiMjAxMzIzMzcwMS4xNzQ3MTIxOTA0In0sImFub25JZCI6IjA1NmUyYmFhZTEyNWU0NmMifSwic291cmNlIjp7InVybCI6Imh0dHBzOi8vd3d3Lm1lcmNlZGVzLWJlbnouY28udWsvcGFzc2VuZ2VyY2Fycy9tZXJjZWRlcy1iZW56LWNhcnMvY2FyLWNvbmZpZ3VyYXRvci5odG1sL21vdG9yaXphdGlvbi9DQ2NpL0dCL2VuL0NMRS1LTEFTU0UvQ0FCUklPTEVUP2ludGVybmFsX3Rlc3Q9dHJ1ZSIsInVybFJlZmVycmVyIjoiIiwiY2hhbm5lbCI6IldlYiIsImJlYWNvblZlcnNpb24iOjE2LCJjb25maWdWZXJzaW9uIjoiNTgiLCJjb250ZW50Wm9uZXMiOltdfSwiY29uc2VudHMiOltdLCJhY2NvdW50Ijp7fSwicGVyZm9ybWFuY2UiOnsic2RrUGFyc2VUaW1lIjoyfSwiX3Rvb2xzRXZlbnRMaW5rSWQiOiI5Nzk4OTM3ODgyNDE5NjEzIiwiZGVidWciOnsiZXhwbGFuYXRpb25zIjp0cnVlfX0%3D: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No resource with given identifier found"}
+  (Session info: chrome=136.0.7103.59)
+Stacktrace:
+#0 0x55f738d387fa <unknown>
+#1 0x55f7387dce90 <unknown>
+#2 0x55f7387c4156 <unknown>
+#3 0x55f7387c2a6a <unknown>
+#4 0x55f7387c31cf <unknown>
+#5 0x55f7387c3124 <unknown>
+#6 0x55f7387e111f <unknown>
+#7 0x55f7388863ca <unknown>
+#8 0x55f738854242 <unknown>
+#9 0x55f73887a135 <unknown>
+#10 0x55f738854013 <unknown>
+#11 0x55f738820b3b <unknown>
+#12 0x55f7388217a1 <unknown>
+#13 0x55f738cfdb9b <unknown>
+#14 0x55f738d01a8a <unknown>
+#15 0x55f738ce5912 <unknown>
+#16 0x55f738d02604 <unknown>
+#17 0x55f738cca74f <unknown>
+#18 0x55f738d26678 <unknown>
+#19 0x55f738d26856 <unknown>
+#20 0x55f738d37666 <unknown>
+#21 0x7fc77289caa4 <unknown>
+#22 0x7fc772929c3c <unknown>
+
+ERROR    root:VerifyPersonalizationAndCapture.py:19 ❌ Error attaching screenshot to Allure: [Errno 2] No such file or directory: '/home/runner/work/QA-Allure-Testing/QA-Allure-Testing/Tests/Last Configuration Started_attempt_2.png'
+ERROR    root:VerifyPersonalizationAndCapture.py:148 ❌ Image not found in the specified selector. Error: Message:
