@@ -61,7 +61,6 @@ class LSeenSRPTest:
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "img.wbx-vehicle-tile__image-img"))
         )
             logging.info(f"🌍 Navigated to: {self.urls['ONLINE_SHOP']}")
-            time.sleep(4)
                         
             # Navigate back to HOME_PAGE
             with allure.step(f"🌍 Navigated back to: {self.urls['HOME_PAGE']}"):
